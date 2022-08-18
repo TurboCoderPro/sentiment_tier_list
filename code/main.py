@@ -39,7 +39,7 @@ def updateSentimentScore(entity, sentiment):
         entityData = {"score": score,"amountOfDataEntries": 1}
         allSentiments[entity] = entityData
 
-#print(data.readline())
+
 
 for line in data:
     dataEntry = createDataEntry(line)
